@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html>
+<title> Tariq's Photography</title>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href = "https://cdn.pixabay.com/photo/2017/02/18/14/10/letters-2077274_960_720.png" />
+  </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+        class="w3-bar-item w3-button">Close Menu</a>
+        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+      </nav>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://lh3.googleusercontent.com/0ATghzeEvmqJRsUXJOxtYabBQN3OBGECqcPBz5YrfyNRCxP90C8cPDBolU3EfGHaFtjQgmy8snYjtJ13xLIoxKKW8Cj9GVZ_uIX9datBCfz0m-yo2bCv3BgmH1nximbAQWcOaxYkjr6k5tFxzhJZSFtUeoYw7q-rMUmfxWsF1tOvyWA_Jh5njOEOr2sUpf16ADlRfNmie6ZZYNJdj_rqvp22ANPO_mu-JGTCywjNTMvdbhjRRPok9rEHcd0A0Q1C69bQJTSrDy7_Q4tBX3uOMD2H7DmsLS11vi6GsejknXU6zFYVcPnwcsYq_2aZrMegd5LxlM3qMz-dAU2lvlLXei-8s2WrC_iWmZRRmBdcL94sJyv8MD6T3me3102O704uy1ZltP72opUBaUsfjbtsO6R7rVL7bm-LJy9T0emR3Sz1BEtCVbDYkPRmmz0NzfBTYXUOtJE6fgSVn5_J50rgQnjXku-2T4Njo3g45r3mkRpvu8XNpIvSnTws9q7WbS2SOsQ_49u_--LMyEmeizrqiwMb-AF3iz1uroa05fbEmAAL_tHCJcNpKPDr7Se0KAyrYggn5qVE-A1Bn07VJMLyZu_nzyZFtMkpkxzngHMEil-aDc_zYCZDczmA1yw8jA3N-Cne_I4ayZpeDqVXw0dtO2bw9Eu5P3LU2RKFW9_SClCMHKpLsQhEFvu8e3RiAA=w736-h714-no" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Created By: Tariq G.</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/emVGAsfbOIKcfZeu2wCGRRuWmg6CgAQvIAD1dUZLf_ljhZ8qGKyq66eOe73EDgZttKqMWBt3KoO9NbbRKCt5fVASITLV7p6i3VCtOvcKHNZvU1AsgZ0lSu-BEB1HnsU4ecKUXIGC7CTBcXuYu4dJ4leGitSLclRelshm6utmfuo2YyoHIwhOY1eJRG2NJN1GVf6WHJj9sY8tnLFzqw4Gm5MjnZhHJ6wGuxRmEuLIvHoH7MP_DLmy7GM6_ddJK2NBgyFU6FWbRSKMQL5Rhzmf2eYxAoHSG7_OO5Z5iQah36Z4f0EMO0n5fEOkm8zMw0CwKh3SajAe0o8wfjGHsKHkFjzS8NF7YA2b2jPTEikwRqaLpZy5vmBM8RF1bVzm_UnK2kV-rPlZTCI1Jwv9dN8zO9tZ3A2jC9MRBJFIUoVVAlbqapx4TRvnPIC56o83-Oxp5mKyKf6ND7GUHNAPFBxnhKYUksC_RnYUFP9RHiArwXIKDgzJpnwiBuuQVMjcSyvTM35mvklAtax9pt4y48B495aEIj0hImj6RrLPnjJNxkriE8zKuGJi4ZgBag_auMk3w2bsrmi0UK89PhCLK-IpvIl5s5Kh3B3t8Cx_kfuym_x9Dl_BLjY-J3xdomirWN3RoRORvNYI_1sBVqA5LAVYNBhkVloL28sSffD10f0rx4qapFARaeX0Kgj43Gjzcg=w750-h880-no" alt="Norway" style="width:100%" height = 497 class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>  Paterson Night Time View</b></p>
+        <p>    Time: Fall 2019</p>
+        <p>    </p>
+        
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/Mk4Zbv29PxfRveknV91y3JrSQD2Lkk0q3f7jAjCcPuPzQIF8zdBUFH3YiiiMI8MrsiCU1iX98T0PUO-y4Rr_3NHR6PoDVEY9LNPDs7Tk-eBeOSLafmpyzOJ-3NUQjISSOJGzF5bs2Kl-jq5Dx0DKO2gYb9EJ1LPLrp-27cfPpc7DkH3hBLjuaB676COa6RKe89m24QaGqO20uxouR2Lu8uNTMjn_wDuT54bNRmkPDPnHUIBwyjF6Ne8fxz6x9O10GKRfdjn0jxVcAJBcpOwlM5oC2IAEWCP-WCkrvwG5EvaeJ4US0spcC5vO4AZj-pQ7kTlrhovJ8E-94imEuwSy-vy7Bp582hNX9PvV3Ik2YlXH3KxQn3Glr7lI0tTGIVS6ldw7C06F8_bESbK_UWd2KVPxHh4MD2AIsvL5oDc8ovapxmr7IuMYt54Qx8ua-Y-VWtf-2Hx0BgCpt00UaV5MthNTVg_PLKK5fS0728A07K5WB8YvmVNZBsK_Q3Qh6cgO2auXsdm1R6yS61RyKA5b7mBXK6CSu5VA8uMLrz4nhxRp-47vPVANpbEHVENzVvg0sxcU0QsFJutov_jCiuRrssTw0y6SRordtZSeQPr25tSP5pxTPmJy4wZJK36EsulynWhfdhb6AGJYJVEl69J0dvhNKkJGm38_bHuVrm2qGwL_Brhux2ZXqj3L9YZBhQ=w679-h904-no" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>  Evening Mountain Walk </b></p>
+        <p>    Time: Summer of 2018</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://lh3.googleusercontent.com/LAXNg8A1nJRFNp9o_y6xyr18bvGM6yy2JKuW3PQ-0x-LXyZD7E1x7mzBDbYRXSM0vQOXumwo8iAdiXgTfmN6FTTWjvKdA9cOACN0fLtQoIw5pppRQrANZ5b1DmFLdIkc5DBHqK2zA6gdnW9OOrjtQtv4CairT81vALNriQo63Pc2g2l7ya0yCRbjyZ_gT8v3348zjJVrz1uxgDmtzNB_WL99tidG0F-DAdVkaRB0sluxQaUiI_l_5MFEh8_BX2KBwFLuVxRMsL304va2_iHMdhJPdMALqbX8zHGf2KZd4Z3qQsAXNHCeHpGxI0j850VRo_FXl5ihOeSm9dEHxPo6YUnbIVwHjItf5T23kVW-7te3moRc_tqRwRsh-hUEWFy7pR4PqAOeYBStDlEudYCFyc46YHwsrpyKj_AW2tjRQqW8X8Az9hOvaVeYEKmd1jfNDKGUC7A0dQ4gauCFOBXGUEOkgR-nuGHTkUrrIoOoUFIbyrPZ3uSaZ2Rr-szeDGMTUwjjz7XvI4CJlGHUCIOZmm3i9BLBRtATFR25nlnWVH8kBbGbd_tD5ZeIKEiZecGkrUQD1pPyVDsWxVmyF1EX4z5gAbOgV22n1CIL0W1Nlr1GclwjYu-wCN8V8HXqg9X0mdGncPny-JEXRMQh71pkcBYkQMC9YCp-2zbziNKw1fznBBs0Dw0fSJT8clj4ng=w679-h904-no" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Ashraq Sports Day </b></p>
+        <p>    Time: Summer of 2019</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/5TgcZ13dVKp_NaJieK0Q5m4Mizhud-EXxAG_MSbDqsAjf27CkHl67d6tDSygw4kQDWvI5BeHu5NafO4tVLlqtEwfU9HOyz80lilOeajcpwSS5wllWdg8a2dOlvLnQg20xa1t6Cj8pP0iLR31pRqS1YBwTo7Xj2UaLS8z9mFgJgz-50k1LYwVf5sUEyo6TnSMehlMV6Gx588Rlpawjp_qb8aOhUIAGvroJrADwwUVXxZ-FqaXG4oaRg0gQs84uz8vkThBnW8BlizRJEHAFfvn4PPXbOromBYVCI97rPjjvOSJNY8HDcFLMw_PcbD1oW2II1HLIpsPGUoUBhY5F4oTAI92ZunrxqoVmeOju6ynOJsweRT-m8BPBEC9BQfNV7fdLdHm1pzDjvVQlYYd-cWfYxRMIhv-nS1aIpAlErQd2JSzMLEldWwVoKnSzyea0jsgwAlGZtH1G60HXyQuzQBG3E1OJtQnhK_V_WS18Ld22o9EI0uLVlzTLDOOGopnCUgPlYLr-jXs2Tu6JxPb72CmJoPrTzSwuNt1ElAMt2uI7u8p4uCLBLKofIOtathNY8X8btHPdnemIJxUXfYF1vNJWwARmctTcvLgM-avrGUCWmrJqsZoQY7ggBz-J09IFF-CIh2ntiC66JvtmbRt8PEx3BBQKjNVxaKkoI1K9mBDf0faG8qTBS8UKXvnUiCT2A=w679-h904-no" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Don Bosco Tech Academy Graduation </b></p>
+        <p>    Time: June 26th 2018</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/tM1w77p_aVnmswkfIPi6l3WoR8alR2DnNPMc3AyLdeXnzz8iSeYdirJLNu3tWDZog9krnokKgGc1TvDb3VX20p_TAgYrnlEUuJol3N5fx7zB_tii3oOB5zQRQeG2SIyZ9Kj1YSRdS86qHX803MtdoJ02oOBtADxVJJHml9oJbX2KhI-NoYTEQbsunYOw03brPI_XoiEfq7Iup1TmeWasAzHVEJIKboauUBir944mOYUvTqp6TVVhCXktaxUSscyCwAbAVkaPhNQio9HWrcjmriy5LPJ0YdExkQsRrNj2prbj7Su3QVZA_OCGfi9xRArbvSB_S6D9mhVNiDw-Ui5OzTHzq98CL50Qa-26-gl-euGSw62oyqR5vxJrttenn_4EEs7qBqKFto_LClPcCzZOt93dFbYD-4g63Awo2THzhatUCFunoaC6-9rD1FFUcGW4xPtgHmK_eaItYDuHozfiQEUDnAnLdO9S4nKcz8rDR6aaZDVF_V8MuMO5iNVhhQZgPOGjeTEeHRV7Yj7sj-4FlQGYcKy_rVnZ37i50N4-MEPCUdfToZf_649sHQHVv57VBkEH0G6N93q1xZKeOGMY1GZxqq9sVbD9LFQWjWzFI2_HSchHfJTXKwRWfE7R7Eh7MdcOY3wTKeI20uacDnVNWVGWh3KT1X6HcbWkl0tY85QHFUHEp1Yq3eoPyeE6VQ=w680-h904-no" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Apple Garden Upsate NY </b></p>
+        <p>    Time: September of 2019 </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://lh3.googleusercontent.com/jUGu3QFRSGQr8X_SjWDrbVFVFJqrN_wL1cOCyUp7NAiEPftaZEDXhXM-26nkBcJX1lwmYG_zrSFvPSnPcKX71lJsOGPe6hk6TzhY6RrxoWEkRCsyIspKLtBEi7TvBFAXHLeUC-WL9eZ5RJW-ESt5SzQPdgMnB8B4ENHdojzVDvaHuQwhswGIe16oRcH-7IFHs4D7689SXmPddugGTSrW3ztesE0F1VjSLImp5TkCwUceX0amk-ShBDJ9u023PUif-KIT9e9cbP7jBRJjj_7wlxF8t1olo89cW1HKH5RqIeZbiOS0LD732Z9bnWpGpUYV8Dh6NnnJ2UjvFl8ZfzFv9lcH63gs7wxpW5lvljJThd-a18aTuqxYI5p8E_OZCVUi52Kuyd4haqefkAMs6iHgKJG69V7xJOG5S1ExvF2YbB7kcJEGui7H7zBv6P1yjxnwK0Q1z5A6hOWPrrLIvkEReJCGkk57mgV3mUN_kkV58kwu2Ga9RAuKApEhAYWdqxKoSJ2b1WNujHBUyYpjnKc8tJGLclcdutqJ2xH5ICfTu53q0rBRCsYWOMDIN6i2s7VDxOeQU9j1E2ES7KVQ2yqQ-UWd4tWt54dGf2bTh4YeJHFbYYzru4kY2U4PBSrT3Ixf1MF2rhPfTesrSbxioiQ0VHi8W_u7jRUPxuVyiE5wHt3D6rJwJ1NoNl4vNPa_bw=w679-h904-no" alt="Norway" style="width:100%" height = 500 class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Talha's Birthday Party :D </b></p>
+        <p>    Time: December 5, 2018 </p>
+      </div>
+    </div>
+  </div>
+
+   <!-- Third Photo Grid-->
+   <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/Ouf4JzHnevB6tDLgbPMrGRxCIgmXp_Sz1gnoB3X6IEgBkd8_D9wNhb-Un97UoXNuFPbdG1CWbpDhv3omYZkEF9R4s-2snEOrqi22hjTcoIA-vHoFuOqI5gRfuX_KR_8dLxM3cZsIx_I0V_XHwjhqrBVgx46lXcaPmFJKa6LJA0x0fdMEwa62orlAapNl1oOPyYPCBF30GNhrbqBJPfOE9c3NQw4iRbxyg9fZ45Jh5ZX3b91QAVvWAPCBpuGUxYhLkRAA2dJ2wvxqEYbVFun3LKzF8dl26kYOuvD0eAWyHmv1iT_4d-ivHzstXJF1wmT5fNHMOjTGloxuWHSGpbH3tEPFzMpK_U265pSoSz64DQ91yBDdkqfqzv_PFBBDo5oGZd-jQex-ph0Ja459m-XyLjSVm7ZSYbpuvHmPRTGXSEVdgxjYIq1eN2xgjU5yXgSsCiT-jIWbGSnWkb9rLDPkG_Ir8h86tCBSpGDompgnk5gcq310rhlv2MMQT0HhMRw3h81OlWicMtLcMCskkr1pxsD3cpoPJlirJskAWxNv_3WLQf7p8H6q5XYIdak02Pv7rDLTwslvCeEPKWPXBlpTxsXbSDMh_no599ZL7yjoDl1zHE9X1kH-b8su8XNNHHqF4Txj6ldz73NZ-0cC0H4v5LvGxb4YWvRTcGRxR4zUsUd3q0w28s4_Nge7_WPF4A=w960-h717-no" alt="Norway" style="width:100%" height = 280 class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Tennis Practice W/ Talha & Mi </b></p>
+        <p>    Time: Winter of 2019 </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://lh3.googleusercontent.com/2n3S81hV2MjLWUMV8483NsTV6rnHBwgqpGkPDAraaw1UyRBP91k3elS5dDBu8DhIh4idUiSU4Siw2GEEVsezrMcjE0_yE2TbO8BJSGmIi0_pl0F2ZJwxCuhCiMe1O7L3qJ0kcLysR9U6WZLmPX4fvNU88j2fFLNVXsch1QVrx53vRH_9A3y3GJ3iJndc_hQLB2ozsuEtAfiv71iGNMRiUfiNw4gSIH-nGH9_aQeEDEclN4vlzOTjCUtVIsk5RphGf6yqgiA47QzclFiI81KQgMeq3jeQDhNL-N-GZpJjjRViqNMeI3jr0_U8JdiieMQ81DpowgefybCmLgBmWfmYfnpTnxQXIY3FSS8BSlwhT3RqSlLsWIRe-pG-Qq4hAiV6mMoMZ9M3vHnlxqfmb1betAAE0KjxPcTokSgCwyczxhWdDc5GGsmBYXc3toB2SCHMII7VU2heSRL0N_Z736LUJ6hfRmD3Ib0L7500IcZGWOOByLLjo92zhnOD72Vfsg4TcUPyJhWattxXfTYMJT2bsN-osgMd9a9hWUeKDe7cyhWs3SRb3K65NYLoYOjPULqapwh4niZuVK6rE5BE93sJW_gmR5miQR4L4NUpf8k148Zqk-HgHIEtasOV0HDeNRQ4ckduqzO9yAHr4aSqKwWPJRmfzQF3nE2NUA4OcZ4dby7mX2DixDj1lwB6447i0g=w750-h422-no" alt="Norway" style="width:100%" height = 280 class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Exploring With Abraham and Sajid </b></p>
+        <p>    Time: Spring of 2019 </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://lh3.googleusercontent.com/a8KyuGCsuCX0A_L5fPblJH86n3kp3hfISOUDP8RM7DBFrI4_mpH5jv3zJSHXsdbNGCQr16XAwBu77u5IWPv4WJ-fqhLY-z3Xrq7vp6E7kFqkmresV7fIgZfcuxYxgahzNOmg4rv-3A-1nSzf5soTVokXLbGdLvaWrRRcqMrfRWh0jQgRhfsG8Sq1DrYa33OzlQlcWKkq7QUrCF3O2cGy4Q6Ff1jmaEpe4VR6iVwPSPwJcPZ8tQBjbob8XBWvut7ml1fTVMeJJwgLNsI3TVZXnXeHlRJdBwQz9GnmrE_MgzQPc0LDueblwNA27-UjMbVk0qIKANYkhjFcGhYofkbzB1QRzcm-4sTCD1vekKS8-k5_M39AJBjbKKq-8uVdffmPh19FmBPa6jhPl-k8L5_mTArvkcJ0t6KYTrvKG-NWttLSPsO58Kzq2ODwRH_i7Eq7vHNE5nx-AXHvYEYSZsNDL-wWVh2oKXbfyRf5_Hb2aShgEiqWjM8ymYaY9MIBMQ6P2IzwQsRkn3d0sxoWL2U3MAI6D7M3A4Ecu1GYaXZ9DuwJ5_QShnV36MvA83In7GyuoubHi6JoAliTOOam999x2efKjnW7T-dBakSLKgoiOAFODzbMOYZQwqpZCgVaWiUc-mRUhdWfWdzJk1oCP-ObOh-vQ5OXXqgMqyceNUkrUE9UvHoNqdI5eHtEwb1E0w=w1205-h904-no" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> NJIT Open House W/ Talha</b></p>
+        <p>    Time: November 2019 </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">&laquo;</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">&raquo;</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="https://lh3.googleusercontent.com/ZlLRDVlLdPtw_gwoZRKcdaO-6U4UVp7HVGbQ6G3yGo5w1S10_wnf9KZliLD_KjhBfVZfUamfiXlrI1a9DoOy8t-QHqbIZpzshuxUwFLAJRfml_p-PYuuLpfCUcQTBDgie5Lj_G9bhaOKRD7NTFCOxNnXXfoX02Gst38_fGggjM0iXzCSoBEe90wAIHXvNSWa0R25quPgb62Jchj0s5aLzJ_GWiPpn6jVuM_oD05ze4vTQ7ZAyYJkJPbGrKnY9kIuI6bWtyizF_nmIOfYmkzCpX79bF0HYggpRGlkpJWSl53-vuEOPs0T6BxX1_D1AksGTNmGWrGr2KiSw_FfQwHLX0Cm10UooZyzS7jW4DvxmNcIvlZgyHFIiSmQPR3iQMrTKx8nOEuov49Oz_OZlFR9EzTmcuC2n3IsFcj__UIq3sQ50mE_yrxcWQCrBaqnxWNdPfTTc1k9PoVNbguO7SudJ6GItp9QggyM4sSbN1deB53Mlt7wEM29vWLzLPhz-rMwMU3GzRQ4OzAiSlRhFme86JKcW5-EmZFY-vWmNEg2xbPoMAwQHwfZEakBAv2PtJ5Mk6RuSkOhrEWo26tgVTUWhYW1yozfQEFVduq23TCCW7Evfx3ZycbylwlJpNNkZ8VJcTtv2iIs2KTg9q-s_QNAhVCAWRrKMielWH3CYRHUYdfXsvQOg9dcrWbNjJgJCw=w539-h576-no" alt="Me" style="width:90%" height = 470>
+    </div>
+    <div class="w3-col m6">
+      <img src="https://lh3.googleusercontent.com/KkrW1MFzbxt1EyzvInwUElxXqFHVqUXx7MvlYVU2aCk9ZUC_c0uc0bnuo-wliyZ3uCGPTnpeeQ7KTUYhQ4AByV7O-IN3Gv1q_rNyck0j9pZpv3ggj98XKEt1wwqbCt8LEiSIQGgvvOvStup3ryAzJIsHzKunJywFUnnqNRgzADsFEQJnj_W7_f02gYIG2WCMiWO8uxtdyvuNljeYtFhtweES6h3ZlJRcc6fUKbnFi4AYvThEIrgJiKQC4vonZGrf_zZ8QglC5jm-dIT7TlkaTiPnywyWWQ-VpX5q2hQMLFK9vBUnDRVjL-aFPoqfJqQVzhwluTBOA24Nf6vUQX21bNP5lFh53ObI3EvmG1Yc6yXVu8NDfsg13ht649SwdjWepO_ZSFInUImwf-qNKyaJkkxbG-dfAZrKm5Gbmim4p6B2JmFWYRz9hsTGJrwQRrPJbZF4pWNvsO6eXXijSW1KCGZeVl6zqG8Bljh9JZiCl267igPfTqOj_Jy6C55XF8rXxCfygMGBadV7Zl7gGwkGg0zfjHmg1k9FTKf3QdryQGtCudnkjkWUWA5_Nwd9uMrEnjeJivB8uIFu6xAYLMtG6deKGQAjTqeIVJsepJQsutBRUCs0nrQNjM03nvuQH4g45gSidgbvH0qKsSljWqfJHcFRlFoaUElcLyZ3UYvRilJTptwgTmOJDIRQL9p5xQ=w743-h586-no" alt="Me" style="width:100%" height = 470>
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p> Hello, this is my business website. As of now I am currently a sophomore in High School studying the field of Computer Science. I currently attend Passaic County Technical Institute. As of now, I plan on assisting small bussinesses around my city with a skillset and understanding in the fields of Photoshop, Web Design (via CSS, JS, Python, Json, Vue, etc.) and Photography. I am currently looking on developing a solid team in order to assist me in these fields.  </p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Web Development & Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-hover-blue w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>DSLR Photography</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-hover-blue w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Adobe Photoshop & Animation</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-hover-blue w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p> Advertising/Marketing </p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-hover-blue w3-padding w3-center" style="width:70%">70%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-black w3-hover-green w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>Download Our Weekly Performance
+      </button>
+    </p>
+    <hr>
+    
+    <h4>How much Do We charge? </h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-yellow w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">10GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2> $0 </h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-blue w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography + Photoshop</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$5</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-red w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography + Photoshop + Blender Animation</li>
+          <li class="w3-padding-16">100GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$15</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-hover-text-black">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p> tariq.gayas17@gmail.com </p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>New Jersey, US</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+1-862-262-3918</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+
+
+  <!-- Who we Are -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="https://lh3.googleusercontent.com/7bz7rpa8AELHjVPKRF8C_fJ9f-2g0Z9ie6KzCP07dCKR6DnzZ3i1xMzJ7Z3aqYDagKKwgWx97cttJWMfmcQpQ7kGaszKA3RYPGPKnFMnN5pNKeaRrdURTZ7cuKGEmCOhMPl2lRtTpjfCLzFTOxj_20_fzkPHelVEolGYoDZKc4iHLH2Og0DX4EQ1RNdfD0UgnDOVElghUabQESZMtCpKDagzuwfN4kFGeJwMF0sxIxHmm9DZDktQ5jOhSDD3LVlPyd4gnrSoaMGprgHaKbbE4Ctz8Pt7GzvxWNzFoq2BjEzn91dU1lBdMU8gIi78OoFZf8SNkLFGnd8fCHgySg6Cw-95rHd-QfkQTZr1SI7QLwumXq5cMquibEWudPLh59KnH-KRqIdXw5jG5CkMXVA2730Gz0hhaAif3p72rckB0KDhiFSRqxelAIBfkMC8JB-Lnj9Zb4LDWw5kgRob5alzMkzvaaa-KKmu9xAytU4hmadC608Nk2VJh5PEDBGfrElp1Pw-gMgWjsHzKR-IHF8dyax_adw4bPuGJZ4TeDEb7bxduU5Fs3r6ytLz1F2IyuG-_z7Zf3jq9pSlowzWyqhEjAjUT1ndhtDaFmTuV7Y0kKIubmBwO6JSBnBqvjq-WwdQiRz5A7SUqFYCUvBJ46mMJd-6PM-kvFNhUgNYyxT_ZcV9c_OsibVJ_yi3_K7SyQ=w482-h618-no" alt="Abe" style="width:100%" height = 490>
+        <div class="w3-container">
+          <h3>Abraham R.</h3>
+          <p class="w3-opacity">Photoshop & Animation Director</p>
+          <p> Implements a great skillset of Photoshop and Blender in order to provide businesses with greater visual experience used for influence and customer satisfaction</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+
+        <img src="https://lh3.googleusercontent.com/X3u4LNgcPREkSWw6Lrtl3Q0ISvq2pj-hGcayf0ulQ9OaDy2a4maD5LH9x_LyyyoiSUq7-_Wc0kZ8D5qds7vURYzmR4Q76qnRdcARGwrJ6Cw6Yvqo_3ob1nELTFvSsjb8ZIOATqCdAtZ530lwzpbNq_QTV7TslaJG4MBHIuocnl6fP7EZVRlCezpTnjBmunqn4p8wIK4ug176p7wfRcxEQ8c3lgtKrx7Gr7WjRrBDIFbzoV10PUDzpGVr-Hkf1S5afCLd99tCHTxs7AYYGkx7Q-XgJl4ykWXT7mkyxqjNNrovZsEQGHGbWt8_Ytb3MXkeF68a38ob6D6676RorNT1Rr59x9GyaONFbR8tEcjArmhaIcVTjcum-di3qgGNeUfUL82RUlDJZzRzNPUvapsrkVLvOryr2hjXMCYgx0yyUs3TMZBg5R-tOsf7RNNtuHd4iUll_KLeIGdH65mDlpTxz2GOCh1l_6_IWzBe-kiZ0fwUVjOEFnv8afKwngv1bbm35PDIu08csO-_lGccoWFUd-BeqeTtlU_jxLui0-tsn-d78iDoP7pt9mASiNC-phN3sax7NGtb5gMv1PUAVK5WLT023Nt74XepwUFqyp--7kf_nf0TAc7IPJYSVglXfr07uEEdh5J3wgNLT1iXRIAN_XMDWR5BAFnbf7VzcN3pSaBpJ8jZMYZmy4Zkii6Ifg=w360-h486-no" alt="Tariq" style="width:98%" height = 490>
+        <div class="w3-container">
+          <h3>Tariq G.</h3>
+          <p class="w3-opacity">Founder & Freelanced Web Develepor</p>
+          <p> Provides clents a diverse skillset in the application of Web and Software Development. Excellent in several languages including HTML, CSS, Javascript, Python, C++, and Java. </p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="https://lh3.googleusercontent.com/7pulI7sQgDYCHtFfqk9L5j6Ebh13NX-RHOXhDCJjz7c5Ycv-JDiuGqIkAvE7N1VzI4Rpp28iZvZF-EJED8L01P2G4OTCNb2rk1YPg1VTuTZFFlG9wLCfzODMo6liqhwbfYu3R2bTW7k_izdTpZWh2TDhHPo-G23HQDnI3pM9gPtbPutUSaHn-kPbZaTquCQkw_kCxiiowWvVe6FZqGTY6Kx_yPAktLJmlnMqO-C3Io3gmlHyKA8UtAwo2PcLHX5g3vtaH8sAg9IHLt3_rSrDfmAbsRk7qtF8NaoavplysAP-xnpMIiIIaAhCr7YT9HjVlkJLNoe9LBeksbO7qvzZGM6Y5PQgXzLag18aAtMOZ8uNFQUrmBz9GIBo1dzcOMj_qXce1JvBlzEMCTAUGDzKOMrzjWrOdY-e2vuRSzmOckSZbhyEcNSF23jhMJ7gogTwkWSCChh3wFY2NhWpzk70ewp9RB0Tc5NpVpvR05UDysnovmijfdVwxooPkMbVWbpTgfDPcNkZfQUEeMVjvcF3S6TKRQCim7w5KqRCElOi9pmoYEPKMHHctD8SCPlsVESeQnM5yfEYE7cS9Nac0izjNGuWlshfTaiEYEuNsvxFu38ylbv2pn7aR_XvtHR7Ks9OxZh_fngSWMC1a9_pEUJL8sPynE_ORghdAbyuSkTf-q_9vmcs-SyDgt0TEu0rqQ=w235-h315-no" alt="Mi" style="width:100%" height = 490>
+        <div class="w3-container" >
+          <h3>MI Rifat</h3>
+          <p class="w3-opacity">Advertising Manager</p>
+          <p> Effecient at Reviewing and Advertising clients and small businesses through the use of online social media (Instagram, Twitter, Facebook). Provides an understanding of endorsement. </p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Additional Information</h3>
+      <p> Name: Tariq M. Gayas </p>
+      <p> Dream/Aspirations: Future Software Engineer at Google </p>
+
+
+     
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="https://lh3.googleusercontent.com/DF_aEgKXifQq9V9E5SY75Mrmd3I7CmaCgjxlD-lGObT9uiamAMO7PwEAOKFM-NsG6ooFmd3MoJ1zpPfkwZUm1_hSvec9FvVpEnC89YTqwurmYxqzHxlWSKpKMOGdeZQ7ZyG5GKQmeLoREbhMKsOV7yxT2dB-0VTeG_-XGyfseF3-il01TuncGZDjshqpAyrzqzn3xt4mlXeJJbmDPNK2HlbR1_lL8z90rj-z3RwyjUywHPZzgJxaihlVleMEKWvnhvO5FaQ5VKfm6mdJ-2m2vFeQEXBftgzm4F020gsDhdjP8x6ija7EckH5T4TiNnne01keBClocpL-T7L4SxzI1bm6FiN6oqWhUHv69ZI9NX2V81Aut07TR9J2Jq-p7hTgAPfWFUkSFvGWAy8TvIwzBUtjqlY04oeQ0Eyj5ToIPUSdS6Z-enZgatPNe_76rdvnvsicMkWZWxxoTn9oaFIwBPDRvJeb-oGQ7Q8OCmzraDR-nfzEKzKH92la7CG3BxRYU0TPCsrTjTdpWoCjRtH-ONOISLZ-Ya3xDPuKZ4Kq21IWmZYI_o-7oyU4Fz7pVHc3UPnWXEFdec4YNApr8Jjr9YV-RGOVpLd0CFHLfW-xokx53Ujxd8ctkP8M47EzPjd3RKDe68xEKx-jMH2HWa3D5M4T-h9-E-a8hSAsggc6T4rmJgz5Gm6A_MAJzLCfRg=w259-h253-no" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large"> Sponsers:</span><br>
+          <span>Mi's Big Ass Head</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://lh3.googleusercontent.com/CYE_q2o1BmnZYAHpwRWTLJI7m3J9H0DcJkPqVJZkSXfh9vP__J2-_bSbeJgE6K0yB7bRCJ2YF-potQ1dQ9tgmboC_4I8mtNCD9eDQ10kAjb3WTFdAhvLHkrizocBfH1GOmOwn5cJGP7fufuDLx3PnvxYdKxnu6PsFp5jyBmZeBWYHGhYP6ujIm0KeVCXjI_Gr2vQEoCI2lAe4Swsj_j8pLtAndK_ud0ZTIPb9JEVEyvL3e32hiCGejUt4kweglCyM9MY7wO9Z6u3N7y8YsobN6AYxf_9oO5Dt-eJjQ4Ag0MpT9gbAq71vjGVpOpMe_CFaC0gCcdUOpCOGX31m2O7caeQ9Dm-v7fj0UloDLkC_yhX2BXiJ270LJf9KBtXVXVKHXYZ_yPTOT_rvkMhNisvsEr4ypPxJsmcRT0bK1RJWenEq43bJKQgA_t07KAmQNnVc_4ZIFLvkHsfg0acamDTHrAF5MFozO_iq2aHlLy9TLKMFGVigWA-IduZnVuVwCSL_RMgV8C13Cwgj-7gWmetQIOn4XOf3dsuRGX5kDTcmx0jWc1gNC3DOMmt1ciRy9r3ZNvuJ7tzrEM51GFmPe0eddsMvQfs5Lkeg-3hBXoyCoFoojCbPc8I5ReyFOmDogUpM3SM-KjFgcSxZAI3P6_NLDM5TfZ5U9KolCnwT7OU7UbuZSdJkVSApTXBZjIpiQ=w157-h171-no" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Dumbass of the Day:</span><br>
+          <span> Big Nigga Ahmed</span>
+        </li> 
+      </ul>
+    </div>
+
+    
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Friends</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom"> Paterson NJ</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">E-Commerce</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Photography</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom"> Web Design</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Online Business</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Business</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom"> Software Engineer</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">CSS and JS</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">FutureGoals</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Photography</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Coding</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Motivation</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Photoshop</span>
+      </p>
+
+      
+    </div>
+
+  </div>
+  </footer>
+  
+  
+<!-- End page content -->
+
+
+</html>
+
+
+
+
+
+
+
+<button type = button onclick="w3_close()">
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
