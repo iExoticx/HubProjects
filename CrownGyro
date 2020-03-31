@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<!-- Official Crown HTML Code -->
+<html>
+<title> Crown Gyro Website</title>
+
+<html>
+
+<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+  
+
+<link rel="shortcut icon" type="image/x-icon" href = "https://menufyproduction.imgix.net/637001146934174197+113682.png?auto=compress,format&h=1080&w=1920&fit=max" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CrownCSS.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+
+/* Background Images */
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cfcfriedchicken.net/files/2014/04/cfc-dl-01-2.jpg");
+  min-height: 100%;
+
+}
+.bgimg2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cdn.discordapp.com/attachments/579778326982557716/694355481132662825/burger.png");
+  min-height: 100%;
+  
+}
+</style>
+<body>
+
+  <nav>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small w3-hover-text-white" style = "font-family: oxygen;">
+  <div class="w3-bar w3-xlarge w3-black  w3-opacity-off" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#schedule" class="w3-bar-item w3-button">SCHEDULE</a>
+    <a href="#location" class="w3-bar-item w3-button">LOCATION</a>
+    <a href = "#order" class = "w3-bar-item w3-button"> ORDER
+    <a href="#contact" class="w3-bar-item w3-button">RESERVE</a>
+  </div>
+</div>
+
+</nav>
+  
+<!-- Header with image -->
+<header class="bgimg w3w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-button w3-tag w3-xlarge w3-text-red w3-hover-yellow">Open from 10am to 11:45pm</span>
+  </div>
+  <div class="w3-display-middle w3-center w3-hover-opacity-min" id = "zoom">
+    <img src = "https://cdn.discordapp.com/attachments/579778326982557716/694340454262767646/hitch.png" width = 400 height = 400>
+    <span class=" w3-text-red  w3-hide-small" style="font-size:100px"><b> <br class = "w3-red"></span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b><br></b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-text-yellow w3-hover-red w3-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="bgimg2 w3-container w3-light-grey w3-text-black w3-padding-64 w3-xxlarge w3-border" id="menu">
+  <div class="w3-content w3-light-grey">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Chicken');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-red">Sandwiches</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Gyro');">
+        <div class="w3-col s4 tablink w3-padding-large w3-red w3-hover-red">Platters/Gyros</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Sides');">
+        <div class="w3-col s4 tablink w3-padding-large w3-red w3-hover-red">Specials/Beverages</div>
+      </a>
+    </div>
+
+    <div id="Chicken" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Chicken Parmigiana</b> <span class="w3-right w3-tag w3-red w3-round">$5.99</span></h1>
+      <p class="w3-text-red"> Fried Crispy Chicken Covered in delicious italian Mozzerella.</p>
+      <hr>
+   
+      <h1><b>Meatball Parmigiana</b> <span class="w3-right w3-tag w3-red w3-round">$5.99</span></h1>
+      <p class="w3-text-red">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+      <hr>
+      
+      <h1><b>Chicken Sandwich</b> <span class="w3-right w3-tag w3-red w3-round">$2.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, chicken, onions</p>
+      <hr>
+
+      <h1><b>Spicy Chicken Sandwich</b> <span class="w3-right w3-tag w3-red w3-round">$2.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+      <hr>
+
+      <h1><b>Grilled Chicken</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-red w3-round">$5.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+      <hr>
+
+      <h1><b>Fish Sandwitch</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$2.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>California Fish Sandwich</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$4.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>100% Beef Cheese Burger</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$2.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>Turkey Burger</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$2.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>Italian Chicken Burger</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$4.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>California Cheese Burger</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$4.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>Italian Cheese Sandwich</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$4.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>Philly Cheese Steak</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$5.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>Chicken Cheese Steak</b> <span class="w3-tag w3-red w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$5.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+      <hr>
+
+      <h1><b>Gyro All The Way (Beef or Chicken)</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-red w3-round">$4.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+
+
+    </div>
+
+    <div id="Gyro" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Chicken Platter</b> <span class="w3-tag w3-black w3-text-red w3-round">Popular</span> <span class="w3-right w3-tag w3-red w3-round">$7.99</span></h1>
+      <p class="w3-text-red">Special sauce, mozzarella, parmesan, ground beef</p>
+      <hr>
+   
+      <h1><b>Lamb Platter</b> <span class="w3-right w3-tag w3-red w3-round">$7.99</span></h1>
+      <p class="w3-text-red">Ravioli filled with cheese</p>
+      <hr>
+      
+      <h1><b>Gyro Platter</b> <span class="w3-right w3-tag w3-red w3-round">$7.99</span></h1>
+      <p class="w3-text-red">Fresh tomatoes, onions, ground beef</p>
+      <hr>
+
+      <h1><b>Mix Platter Chicken and Lamb</b> <span class="w3-right w3-tag w3-red w3-round">$7.99</span></h1>
+      <p class="w3-text-red">Salmon, shrimp, lobster, garlic</p>
+
+      <hr>
+
+      <h1><b>Falafel Platter</b> <span class="w3-right w3-tag w3-red w3-round">$6.99</span></h1>
+      <p class="w3-text-red">Salmon, shrimp, lobster, garlic</p>
+    </div>
+
+
+    <div id="Sides" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+      <p class="w3-text-grey">Ask the waiter</p>
+      <hr>
+   
+      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+      <hr>
+      
+      <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+      <hr>
+      
+      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+      <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About The Store -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"> About</h1>
+    <p> <font size = 6> What We Offer: <font size = 5>Crown Fried Chicken and Gyro is a great and notable place to enjoy classic greek and american food. We offer high quality service, timely cooked food, and cheap prices We also provide customers home delivery via Grubhub and Uber Eats!</p>
+
+      <p> <font size = 6> Grand Opening: <font size = 5> January 26, 2018 </p>
+
+        <p> <font size = 6> Address: <font size = 5> 282 Union Ave, Paterson NJ 07502 </p>
+
+    <center> <table border = 6 bordercolor = black>
+      
+      <tr>
+     <td bgcolor = white> <img src="https://cdn.usarestaurants.info/assets/uploads/94be22e2f04d48b0d363d72702a54bee_-united-states-new-jersey-passaic-county-paterson-728151-crown-fried-chicken-gyrohtm.jpg" alt="Restaurant" width = 460;>
+     <td bgcolor = white> <img src="https://media-cdn.tripadvisor.com/media/photo-s/08/a6/3e/a1/crown-fried-chicken.jpg" alt="Restaurant" width = 460 height = 345>
+  
+     </tr>
+
+    </table>
+  </div>
+</div>
+
+<!-- Store Schedule -->
+
+  <div class ="w3-container w3-padding-64 w3-black w3-grayscale w3-xxlarge" id = "schedule">
+    <h1><b><center>Opening Hours</b></h1></center>
+    
+    <div class="w3-center">
+      <div class="w3-col s6">
+        <p>Mon & Tue: 10:00am - 11:45pm</p>
+        <p>Wednesday: 10:00am - 11:45pm</p>
+        <p>Thursday: 10:00am - 11:45pm</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday: 10:00am - 11:45pm</p>
+        <p>Saturday: 10:00am - 11:45pm</p>
+        <p>Sunday: 10:00am - 11:45pm</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<!-- Map/Location -->
+
+<div class ="w3-container w3-padding-64 w3-light-blue w3-xxlarge" id="location">
+<!-- Image of location/map -->
+<center> <p>  <font size = 7> Location/Map </p> </center>
+ <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.894486541508!2d-74.19210748485688!3d40.918059332921004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fdc15c564429%3A0x6590d36d6d36a902!2sCrown%20Fried%20Chicken%20%26%20Gyro!5e0!3m2!1sen!2sus!4v1585613048406!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
+
+</div>
+
+<!-- Order Online -->
+
+ <div class = "w3-container w3-white" id = "order">
+
+  <center> <p> Order Online! </p> </center>
+ 
+  <center> <center> <iframe src="https://www.doordash.com/store/crown-fried-chicken-gyro-paterson-412613/en-US" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
+
+</div>
+
+
+
+<!-- Reserve/Contact -->
+<div class="w3-container w3-padding-64 w3-yellow w3-grayscale-min w3-xlarge" id="contact">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Reservation/Contact</h1>
+    <p>Find us at some address at some place or call us at 862-257-3150 </p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: rgb(59, 89, 153);
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  </style>
+  </head>
+  <body>
+  
+
+  <h2> Follow us on Social Media!</h2>
+  
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/cfcpaterson" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+
+        
+  </body>
+  </html> 
+  
+
+
+
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
